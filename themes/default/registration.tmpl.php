@@ -1,5 +1,9 @@
 <?php 
-require(AT_INCLUDE_PATH.'header.inc.php'); 
+require(AT_INCLUDE_PATH.'header.inc.php');
+use PFBC\Form;
+use PFBC\Element;
+include( AT_INCLUDE_PATH.'PFBC/Form.php');
+//$form->configure(array( "prevent" => array("bootstrap", "jQuery")));
 ?>
 
 <script language="JavaScript" src="sha-1factory.js" type="text/javascript"></script>
@@ -156,84 +160,21 @@ function encrypt_password()
 				<input type="hidden" name="old_status" value="<?php echo $_POST['old_status']; ?>" />
 			</div>
 	<?php endif; ?>
-</fieldset>
-<fieldset class="group_form"><legend class="group_form"><?php echo _AT('personal_information').' ('._AT('optional').')'; ?></legend>
-	<?php 
-	$mod = $moduleFactory->getModule('_standard/profile_pictures');
-	if (admin_authenticate(AT_ADMIN_PRIV_USERS, TRUE) && $_POST['member_id'] && $mod->isEnabled() === TRUE): ?>
-		<div class="row">
-			<?php echo _AT('picture'); ?><br/>
-			<?php if (profile_image_exists($_POST['member_id'])): ?>
-				<a href="get_profile_img.php?id=<?php echo $_POST['member_id'].SEP.'size=o'; ?>"><?php print_profile_img($_POST['member_id']); ?></a>
-				<input type="checkbox" name="profile_pic_delete" value="1" id="profile_pic_delete" /><label for="profile_pic_delete"><?php echo _AT('delete'); ?></label>
-			<?php else: ?>
-				<?php echo _AT('none'); ?> <a href="mods/_standard/profile_pictures/admin/profile_picture.php?member_id=<?php echo $_POST['member_id']; ?>"><?php echo _AT('add'); ?></a>
-			<?php endif; ?>
-		</div>
-	<?php endif; ?>
 
-	<?php if (admin_authenticate(AT_ADMIN_PRIV_USERS, TRUE) && defined('AT_MASTER_LIST') && AT_MASTER_LIST): ?>
-		<input type="hidden" name="old_student_id" value="<?php echo $_POST['old_student_id']; ?>" />
-		<div class="row">
-			<label for="student_id"><?php echo _AT('student_id'); ?></label><br />
-				<input type="text" id="student_id" name="student_id" value="<?php echo $_POST['student_id']; ?>" size="20" /><br />
-		</div>
-		<div class="row">
-			<input type="checkbox" id="overwrite" name="overwrite" value="1" <?php if ($_POST['overwrite']) { echo 'checked="checked"'; } ?> /><label for="overwrite"><?php echo _AT('overwrite_master');?></label>
-		</div>
-
-	<?php endif; ?>
-
-	<div class="row">
-		<?php echo _AT('date_of_birth'); ?><br />
-		<label for="year"><?php echo _AT('year'); ?>: </label><input id="year" class="formfield" name="year" type="text" size="4" maxlength="4" value="<?php if(isset($_POST['year'])){ echo $_POST['year'];} ?>" />  <label for="month"><?php echo _AT('month'); ?>: </label><input id="month" class="formfield" name="month" type="text" size="2" maxlength="2" value="<?php if(isset($_POST['month'])){echo $_POST['month'];} ?>" /> <label for="day"><?php echo _AT('day'); ?>: </label><input id="day" class="formfield" name="day" type="text" size="2" maxlength="2" value="<?php if(isset($_POST['day'])){ echo $_POST['day'];} ?>" />
-	</div>
-
-	<div class="row">
-		<?php echo _AT('gender'); ?><br />
-		<input type="radio" name="gender" id="m" value="m" <?php if (isset($_POST['gender']) && $_POST['gender'] == 'm') { echo 'checked="checked"'; } ?> /><label for="m"><?php echo _AT('male'); ?></label> <input type="radio" value="f" name="gender" id="f" <?php if (isset($_POST['gender']) && $_POST['gender'] == 'f') { echo 'checked="checked"'; } ?> /><label for="f"><?php echo _AT('female'); ?></label>  <input type="radio" value="n" name="gender" id="ns" <?php if (isset($_POST['gender']) && ($_POST['gender'] == 'n' || $_POST['gender'] == '')) { echo 'checked="checked"'; } ?> /><label for="ns"><?php echo _AT('not_specified'); ?></label>
-	</div>
-
-	<div class="row">
-		<label for="address"><?php echo _AT('street_address'); ?></label><br />
-		<input id="address" name="address" size="40" type="text" value="<?php if (isset($_POST['address'])){ echo stripslashes(htmlspecialchars($_POST['address']));} ?>" />
-	</div>
-
-	<div class="row">
-		<label for="postal"><?php echo _AT('postal_code'); ?></label><br />
-		<input id="postal" name="postal" size="7" type="text" value="<?php if (isset($_POST['postal'])){ echo stripslashes(htmlspecialchars($_POST['postal']));} ?>" />
-	</div>
-
-	<div class="row">
-		<label for="city"><?php echo _AT('city'); ?></label><br />
-		<input id="city" name="city" type="text" value="<?php if (isset($_POST['city'])){ echo stripslashes(htmlspecialchars($_POST['city']));} ?>" />
-	</div>
-
-	<div class="row">
-		<label for="province"><?php echo _AT('province'); ?></label><br />
-		<input id="province" name="province" type="text" value="<?php if (isset($_POST['province'])){ echo stripslashes(htmlspecialchars($_POST['province']));} ?>" />
-	</div>
-
-	<div class="row">
-		<label for="country"><?php echo _AT('country'); ?></label><br />
-		<input id="country" name="country" type="text" value="<?php if (isset($_POST['country'])){ echo stripslashes(htmlspecialchars($_POST['country']));} ?>" />
-	</div>
-
-	<div class="row">
-		<label for="phone"><?php echo _AT('phone'); ?></label><br />
-		<input size="11" name="phone" type="text" value="<?php if (isset($_POST['phone'])){ echo stripslashes(htmlspecialchars($_POST['phone']));} ?>" id="phone" />
-	</div>
-
-	<div class="row">
-		<label for="website"><?php echo _AT('web_site'); ?></label><br />
-		<input id="website" name="website" size="40" type="text" value="<?php if (isset($_POST['website']) && $_POST['website'] == '') { echo 'http://'; } else { if (isset($_POST['website'])) { echo stripslashes(htmlspecialchars($_POST['website'])); }} ?>" />
-	</div>
-</fieldset>
-	<div class="row buttons">
+    <?php
+//@Randima's work for option fields
+    $form = new Form("form-create");
+//$form->addElement(new Element\HTML('<legend>Add Fields</legend>'));
+    $form->addElement(new Element\Textbox("Type","type"));
+    $form->addElement(new Element\Textbox("Label","label"));
+    $form->render();
+    ?>
+	<!--<div class="row buttons">
 		<input type="submit" name="submit" value=" <?php echo _AT('save'); ?> " accesskey="s" onclick="encrypt_password()" class="button"/>
 		<input type="submit" name="cancel" value=" <?php echo _AT('cancel'); ?> "  class="button" />
-	</div>
+	</div> -->
 </div>
 </form>
+
 
 <?php require(AT_INCLUDE_PATH.'footer.inc.php'); ?>
