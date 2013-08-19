@@ -3,6 +3,7 @@ namespace PFBC;
 
 abstract class View extends Base {
 	protected $_form;
+    protected $classLabels=array();
 
 	public function __construct(array $properties = null) {
 		$this->configure($properties);

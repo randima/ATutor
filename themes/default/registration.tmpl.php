@@ -2,7 +2,9 @@
 require(AT_INCLUDE_PATH.'header.inc.php');
 use PFBC\Form;
 use PFBC\Element;
+use PFBC\View;
 include( AT_INCLUDE_PATH.'PFBC/Form.php');
+var_dump($_POST);
 //$form->configure(array( "prevent" => array("bootstrap", "jQuery")));
 ?>
 
@@ -162,18 +164,59 @@ function encrypt_password()
 	<?php endif; ?>
 
     <?php
-//@Randima's work for option fields
+
+
+//@Randima's work for option fields (needs to adapt generator)
+    echo '</fieldset>';
+
     $form = new Form("form-create");
-//$form->addElement(new Element\HTML('<legend>Add Fields</legend>'));
-    $form->addElement(new Element\Textbox("Type","type"));
-    $form->addElement(new Element\Textbox("Label","label"));
+    //$form->addElement(new Element\HTML('</form></fieldset>'));
+    $form->configure(array("view" => new View\SideBySide(array("classLabels" => array("formAction"=>"row buttons","controlGroup"=>"row","fieldsetLabel"=>"group_form")))));
+    $form->addElement(new Element\HTML('<legend class="group_form">'._AT('personal_information').' ('._AT('optional').')'.'</legend>'));
+
+
+    // following code needs refactoring
+    $mod = $moduleFactory->getModule('_standard/profile_pictures');
+    if (admin_authenticate(AT_ADMIN_PRIV_USERS, TRUE) && $_POST['member_id'] && $mod->isEnabled() === TRUE): ?>
+        <div class="row">
+            <?php echo _AT('picture'); ?><br/>
+            <?php if (profile_image_exists($_POST['member_id'])): ?>
+            <a href="get_profile_img.php?id=<?php echo $_POST['member_id'].SEP.'size=o'; ?>"><?php print_profile_img($_POST['member_id']); ?></a>
+            <input type="checkbox" name="profile_pic_delete" value="1" id="profile_pic_delete" />
+            <label for="profile_pic_delete"><?php echo _AT('delete'); ?></label>
+            <?php else: ?>
+            <?php echo _AT('none'); ?> <a href="mods/_standard/profile_pictures/admin/profile_picture.php?member_id=<?php echo $_POST['member_id']; ?>"><?php echo _AT('add'); ?></a>
+            <?php endif; ?>
+        </div>
+        <?php endif; ?>
+    <?php if (admin_authenticate(AT_ADMIN_PRIV_USERS, TRUE) && defined('AT_MASTER_LIST') && AT_MASTER_LIST): ?>
+        <input type="hidden" name="old_student_id" value="<?php echo $_POST['old_student_id']; ?>" />
+        <div class="row">
+            <label for="student_id"><?php echo _AT('student_id'); ?></label><br />
+            <input type="text" id="student_id" name="student_id" value="<?php echo $_POST['student_id']; ?>" size="20" /><br />
+        </div>
+        <div class="row">
+            <input type="checkbox" id="overwrite" name="overwrite" value="1" <?php if ($_POST['overwrite']) { echo 'checked="checked"'; } ?> /><label for="overwrite"><?php echo _AT('overwrite_master');?></label>
+        </div>
+        <?php endif;
+
+
+    $form->addElement(new Element\Date( _AT('date_of_birth'), "date"));
+    $form->addElement(new Element\Radio(_AT('gender'), "gender", array( _AT('male'), _AT('female'),_AT('not_specified')), array("id"=>'sex')));
+    $form->addElement(new Element\Textbox(_AT('street_address'),"address",array("id"=>"address","size"=>"40")));
+    $form->addElement(new Element\Textbox(_AT('postal_code'),"postal",array("id"=>"postal","size"=>"7")));
+    $form->addElement(new Element\Textbox(_AT('city'),"city",array("id"=>"city")));
+    $form->addElement(new Element\Textbox(_AT('province'),"province",array("id"=>"province",)));
+    $form->addElement(new Element\Textbox(_AT('country'),"country",array("id"=>"country")));
+    $form->addElement(new Element\Textbox(_AT('phone'),"phone",array("id"=>"phone","size"=>"11")));
+    $form->addElement(new Element\Textbox(_AT('web_site'),"website",array("id"=>"website","size"=>"40" )));
+    $form->addElement(new Element\HTML('</fieldset>'));
+    $form->addElement(new Element\Button(_AT('save'),"submit",array("name"=>"submit","accesskey"=>"s","onclick"=>"encrypt_password()","class"=>"button")));
+    $form->addElement(new Element\Button(_AT('cancel'),"submit",array("name"=>"cancel","class"=>"button")));
     $form->render();
     ?>
-	<!--<div class="row buttons">
-		<input type="submit" name="submit" value=" <?php echo _AT('save'); ?> " accesskey="s" onclick="encrypt_password()" class="button"/>
-		<input type="submit" name="cancel" value=" <?php echo _AT('cancel'); ?> "  class="button" />
-	</div> -->
-</div>
+
+<!--</div>-->
 </form>
 
 

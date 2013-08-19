@@ -125,26 +125,27 @@ if (isset($_POST['cancel'])) {
 
 	$_POST['login'] = strtolower($_POST['login']);
 
-	//check date of birth
+	/*//check date of birth
 	$mo = $_POST['month'] = intval($_POST['month']);
 	$day = $_POST['day'] = intval($_POST['day']);
 	$yr = $_POST['year'] = intval($_POST['year']);
 
-	/* let's us take (one or) two digit years (ex. 78 = 1978, 3 = 2003) */
+	// let's us take (one or) two digit years (ex. 78 = 1978, 3 = 2003) //
 	if ($yr <= date('y')) { 
 		$yr += 2000; 
 	} else if ($yr < 1900) { 
 		$yr += 1900; 
 	} 
 
-	$dob = $yr.'-'.$mo.'-'.$day;
+	$dob = $yr.'-'.$mo.'-'.$day;*/
+    $dob=$_POST['date'];
 
-	if ($mo && $day && $yr && !checkdate($mo, $day, $yr)) {	
+	/*if ($mo && $day && $yr && !checkdate($mo, $day, $yr)) {
 		$msg->addError('DOB_INVALID');
 	} else if (!$mo || !$day || !$yr) {
 		$dob = '0000-00-00';
 		$yr = $mo = $day = 0;
-	}
+	}*/
 
 	unset($master_list_sql);
 	if (defined('AT_MASTER_LIST') && AT_MASTER_LIST) {
@@ -163,7 +164,13 @@ if (isset($_POST['cancel'])) {
 		}
 	}
 
-	if (($_POST['gender'] != 'm') && ($_POST['gender'] != 'f')) {
+    if($_POST['gender'] == _AT('male'))
+        $_POST['gender']='m';
+
+    if($_POST['gender'] == _AT('female'))
+        $_POST['gender']='f';
+
+    if (($_POST['gender'] != _AT('male')) && ($_POST['gender'] !=  _AT('female'))) {
 		$_POST['gender'] = 'n'; // not specified
 	}
 
