@@ -4,7 +4,7 @@ use PFBC\Form;
 use PFBC\Element;
 use PFBC\View;
 include( AT_INCLUDE_PATH.'PFBC/Form.php');
-var_dump($_POST);
+//var_dump($_POST);
 //$form->configure(array( "prevent" => array("bootstrap", "jQuery")));
 ?>
 

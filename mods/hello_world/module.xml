@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+<module version="0.1"> 
+    <name lang="en">FLEXIBLE FORM GENERATOR</name>
+    <description lang="en">This is a module that can be used to create(modify) custom form for collecting registration information</description>
+    <maintainers>
+        <maintainer> 
+            <name>Randima Sandamal</name>
+            <email>randima.cse@gmail.com</email>
+        </maintainer>
+    </maintainers> 
+    <url>http://atutor.ca</url> 
+    <license>BSD</license> 
+	<release> 
+        <version>0.8</version> 
+        <date>2013-8-20</date>
+        <state>stable</state> 
+        <notes></notes> 
+    </release> 
+</module>

@@ -266,12 +266,12 @@ if (isset($_POST['cancel'])) {
 		$m_id	= at_insert_id($db);
 
 		if (!$result) {
-			require(AT_INCLUDE_PATH.'header.inc.php');
-			$msg->addError('DB_NOT_UPDATED');
-			$msg->printAll();
-			require(AT_INCLUDE_PATH.'footer.inc.php');
-			exit;
-		}
+            require(AT_INCLUDE_PATH.'header.inc.php');
+            $msg->addError('DB_NOT_UPDATED');
+            $msg->printAll();
+            require(AT_INCLUDE_PATH.'footer.inc.php');
+            exit;
+        }
 
 		if (isset($master_list_sql)) {
 			queryDB($master_list_sql, array(TABLE_PREFIX,$student_id, $student_pin));

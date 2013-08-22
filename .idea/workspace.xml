@@ -20,37 +20,64 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="module.sql" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mods/hello_world/module.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="46" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="module_uninstall.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mods/hello_world/module_uninstall.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="module.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mods/hello_world/module.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="84" selection-start="2467" selection-end="2467" vertical-scroll-proportion="-0.65384614">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registration.tmpl.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/default/registration.tmpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="2" selection-start="143" selection-end="143" vertical-scroll-proportion="-3.9230769">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="registration.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/registration.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="165" column="0" selection-start="5586" selection-end="5586" vertical-scroll-proportion="-9.807693">
+            <state line="39" column="0" selection-start="1555" selection-end="1555" vertical-scroll-proportion="35.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="registration.tmpl.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/themes/default/registration.tmpl.php">
+      <file leaf-file-name="index_admin_test.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mods/hello_world/index_admin_test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="217" column="0" selection-start="12596" selection-end="12596" vertical-scroll-proportion="0.77524036">
+            <state line="49" column="0" selection-start="1686" selection-end="1686" vertical-scroll-proportion="0.38224852">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SideBySide.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/PFBC/View/SideBySide.php">
+      <file leaf-file-name="profile.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/users/profile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="100" selection-start="360" selection-end="372" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.inc.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/footer.inc.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="123" column="17" selection-start="4562" selection-end="4562" vertical-scroll-proportion="-18.26923">
               <folding />
             </state>
           </provider>
@@ -71,8 +98,12 @@
       <list>
         <option value="$PROJECT_DIR$/include/PFBC/View.php" />
         <option value="$PROJECT_DIR$/include/PFBC/View/SideBySide.php" />
-        <option value="$PROJECT_DIR$/registration.php" />
+        <option value="$PROJECT_DIR$/mods/hello_world/module.xml" />
+        <option value="$PROJECT_DIR$/mods/hello_world/side_menu.inc.php" />
+        <option value="$PROJECT_DIR$/mods/hello_world/module.php" />
         <option value="$PROJECT_DIR$/themes/default/registration.tmpl.php" />
+        <option value="$PROJECT_DIR$/registration.php" />
+        <option value="$PROJECT_DIR$/mods/hello_world/index_admin_test.php" />
       </list>
     </option>
   </component>
@@ -114,7 +145,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -143,6 +173,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="users" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ATutor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ATutor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="themes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -175,11 +219,135 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
+              <option name="myItemId" value="mods" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ATutor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ATutor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
+              <option name="myItemId" value="mods" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hello_world" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ATutor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ATutor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mods" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hello_world" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PFBC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ATutor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ATutor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mods" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_standard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ATutor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ATutor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mods" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_standard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tile_search" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ATutor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ATutor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mods" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_standard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tile_search" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ATutor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ATutor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mods" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_standard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tile_search" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -203,6 +371,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -237,16 +406,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13713981" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14034152" sideWeight="0.6707589" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -313,116 +482,110 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/registration.php">
+    <entry file="file://$PROJECT_DIR$/mods/hello_world/module.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="169" column="41" selection-start="5699" selection-end="5699" vertical-scroll-proportion="0.0">
+        <state line="19" column="0" selection-start="656" selection-end="656" vertical-scroll-proportion="0.3708381">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/registration.tmpl.php">
+    <entry file="file://$PROJECT_DIR$/mods/hello_world/module_install.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="204" column="119" selection-start="11500" selection-end="11520" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.36804733" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mods/hello_world/index_admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="189" selection-end="189" vertical-scroll-proportion="-3.9230769">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/PFBC/View/SideBySide.php">
+    <entry file="file://$PROJECT_DIR$/mods/_standard/tile_search/module.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="100" selection-start="360" selection-end="372" vertical-scroll-proportion="0.0">
+        <state line="17" column="89" selection-start="766" selection-end="776" vertical-scroll-proportion="-11.115385" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mods/hello_world/ModuleCallbacks.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mods/hello_world/sublinks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/vitals.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.4098557">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/footer.inc.php">
+    <entry file="file://$PROJECT_DIR$/mods/hello_world/PFBC/Form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/registration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="66" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/registration.tmpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="177" selection-start="3351" selection-end="3441" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/registration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="66" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/registration.tmpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="28" selection-start="791" selection-end="791" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/registration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="66" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/registration.tmpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="170" column="0" selection-start="9309" selection-end="9309" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/PFBC/Form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="305" column="0" selection-start="9369" selection-end="9369" vertical-scroll-proportion="-1.1538461">
+        <state line="29" column="31" selection-start="993" selection-end="1004" vertical-scroll-proportion="0.020118343">
           <folding>
-            <marker date="1376795055452" expanded="true" signature="9521:9601" placeholder="{...}" />
-            <marker date="1376795055452" expanded="true" signature="10279:10532" placeholder="{&quot;url&quot;: &quot;{$this-&gt;_attributes[&quot;action&quot;]}&quot;...}" />
-            <marker date="1376795055452" expanded="true" signature="10446:10532" placeholder="{...}" />
+            <marker date="1376990464787" expanded="true" signature="9515:9595" placeholder="{...}" />
+            <marker date="1376990464787" expanded="true" signature="10273:10526" placeholder="{&quot;url&quot;: &quot;{$this-&gt;_attributes[&quot;action&quot;]}&quot;...}" />
+            <marker date="1376990464787" expanded="true" signature="10440:10526" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/PFBC/View.php">
+    <entry file="file://$PROJECT_DIR$/mods/hello_world/PFBC/OptionElement.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="35" selection-start="112" selection-end="112" vertical-scroll-proportion="0.10059172" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/PFBC/View/SideBySide.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="100" selection-start="360" selection-end="372" vertical-scroll-proportion="0.0">
+        <state line="6" column="70" selection-start="159" selection-end="169" vertical-scroll-proportion="0.12071006">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/footer.inc.php">
+    <entry file="file://$PROJECT_DIR$/mods/hello_world/module.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="46" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mods/hello_world/module_uninstall.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/registration.php">
+    <entry file="file://$PROJECT_DIR$/mods/hello_world/module.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="165" column="0" selection-start="5586" selection-end="5586" vertical-scroll-proportion="-9.807693">
+        <state line="53" column="84" selection-start="2467" selection-end="2467" vertical-scroll-proportion="-0.65384614">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/default/registration.tmpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="217" column="0" selection-start="12596" selection-end="12596" vertical-scroll-proportion="0.77524036">
+        <state line="6" column="2" selection-start="143" selection-end="143" vertical-scroll-proportion="-3.9230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="1555" selection-end="1555" vertical-scroll-proportion="35.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="17" selection-start="4562" selection-end="4562" vertical-scroll-proportion="-18.26923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mods/hello_world/index_admin_test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="0" selection-start="1686" selection-end="1686" vertical-scroll-proportion="0.38224852">
           <folding />
         </state>
       </provider>
