@@ -24,7 +24,7 @@ class Form extends Base {
 	protected $resourcesPath;
 	/*Prevents various automated from being automatically applied.  Current options for this array
 	included jQuery, bootstrap and focus.*/
-	protected $prevent = array("bootstrap", "jQuery");
+	protected $prevent = array("bootstrap");
 	protected $view;
 
 	public function __construct($id = "pfbc") {

@@ -15,7 +15,7 @@ function encrypt_password()
 {
 	document.form.password_error.value = "";
 
-	err = verify_password(document.form.form_password1.value, document.form.form_password2.value);
+    err = verify_password(document.form.form_password1.value, document.form.form_password2.value);
 	
 	if (err.length > 0)
 	{

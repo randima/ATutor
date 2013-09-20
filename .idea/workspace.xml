@@ -20,55 +20,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="module.sql" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mods/hello_world/module.sql">
+      <file leaf-file-name="profile.tmpl.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/default/users/profile.tmpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="46" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="module_uninstall.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mods/hello_world/module_uninstall.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="module.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mods/hello_world/module.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="84" selection-start="2467" selection-end="2467" vertical-scroll-proportion="-0.65384614">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="registration.tmpl.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/default/registration.tmpl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="2" selection-start="143" selection-end="143" vertical-scroll-proportion="-3.9230769">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="registration.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/registration.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="0" selection-start="1555" selection-end="1555" vertical-scroll-proportion="35.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index_admin_test.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mods/hello_world/index_admin_test.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="0" selection-start="1686" selection-end="1686" vertical-scroll-proportion="0.38224852">
+            <state line="2" column="59" selection-start="92" selection-end="112" vertical-scroll-proportion="-0.4473684">
               <folding />
             </state>
           </provider>
@@ -77,8 +32,88 @@
       <file leaf-file-name="profile.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/users/profile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="17" selection-start="4562" selection-end="4562" vertical-scroll-proportion="-18.26923">
+            <state line="57" column="19" selection-start="1903" selection-end="1906" vertical-scroll-proportion="-5.27451">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_profile.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mods/hello_world/user_profile.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="188" column="11" selection-start="9222" selection-end="9225" vertical-scroll-proportion="-28.27451">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="module.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mods/hello_world/module.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="73" column="59" selection-start="3618" selection-end="3618" vertical-scroll-proportion="-18.115385">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index_form_utility.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mods/hello_world/index_form_utility.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="252" column="105" selection-start="10241" selection-end="10241" vertical-scroll-proportion="-9.490196">
+              <folding>
+                <marker date="1379679172496" expanded="true" signature="2566:2667" placeholder="..." />
+                <marker date="1379679172496" expanded="true" signature="5825:5835" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modify_form.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mods/hello_world/modify_form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="9" selection-start="1648" selection-end="1648" vertical-scroll-proportion="-0.74845105">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signup.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mods/hello_world/signup.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="27" selection-start="1806" selection-end="1806" vertical-scroll-proportion="-15.941176">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mods/hello_world/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="0" selection-start="1722" selection-end="1850" vertical-scroll-proportion="-24.807692">
+              <folding>
+                <marker date="1379678855080" expanded="false" signature="1782:1792" placeholder="..." />
+                <marker date="1379678855080" expanded="true" signature="1896:2082" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="save.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mods/hello_world/save.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="2" selection-start="481" selection-end="481" vertical-scroll-proportion="-13.076923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create_user.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mods/hello_world/create_user.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="0" selection-start="1506" selection-end="1506" vertical-scroll-proportion="235.5">
+              <folding>
+                <element signature="e#1506#1548#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,14 +131,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/include/PFBC/View.php" />
-        <option value="$PROJECT_DIR$/include/PFBC/View/SideBySide.php" />
-        <option value="$PROJECT_DIR$/mods/hello_world/module.xml" />
-        <option value="$PROJECT_DIR$/mods/hello_world/side_menu.inc.php" />
+        <option value="$PROJECT_DIR$/mods/hello_world/unit_tests/test.php" />
+        <option value="$PROJECT_DIR$/mods/hello_world/signup.tmpl.php" />
+        <option value="$PROJECT_DIR$/mods/hello_world/signup2.php" />
+        <option value="$PROJECT_DIR$/include/lib/menu_pages.php" />
+        <option value="$PROJECT_DIR$/mods/_core/users/create_user.php" />
+        <option value="$PROJECT_DIR$/mods/hello_world/modify.js" />
+        <option value="$PROJECT_DIR$/mods/hello_world/module.css" />
+        <option value="$PROJECT_DIR$/mods/hello_world/create_user.php" />
+        <option value="$PROJECT_DIR$/mods/hello_world/element.js" />
+        <option value="$PROJECT_DIR$/mods/hello_world/modify_form.php" />
         <option value="$PROJECT_DIR$/mods/hello_world/module.php" />
-        <option value="$PROJECT_DIR$/themes/default/registration.tmpl.php" />
-        <option value="$PROJECT_DIR$/registration.php" />
-        <option value="$PROJECT_DIR$/mods/hello_world/index_admin_test.php" />
+        <option value="$PROJECT_DIR$/mods/hello_world/user_profile.php" />
+        <option value="$PROJECT_DIR$/mods/hello_world/signup.php" />
+        <option value="$PROJECT_DIR$/mods/hello_world/config.php" />
+        <option value="$PROJECT_DIR$/mods/hello_world/save.php" />
+        <option value="$PROJECT_DIR$/mods/hello_world/index_form_utility.php" />
       </list>
     </option>
   </component>
@@ -187,38 +230,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ATutor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ATutor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ATutor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ATutor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="mods" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -259,7 +270,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PFBC" />
+              <option name="myItemId" value="not required temp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -270,102 +281,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ATutor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mods" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_standard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ATutor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ATutor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mods" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_standard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tile_search" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ATutor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ATutor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mods" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_standard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tile_search" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ATutor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ATutor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mods" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_standard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tile_search" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ATutor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ATutor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="include" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -376,26 +295,47 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pfbc3.1-php5.3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="PublishConfig" serverName="FormTest" serverId="d3d6797f-b027-4d00-b5ee-abb7f5ace7a0">
     <servers>
       <server id="d3d6797f-b027-4d00-b5ee-abb7f5ace7a0">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="ATutor" />
-          </mappings>
-        </serverdata>
+        <serverdata />
       </server>
     </servers>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="d3d6797f-b027-4d00-b5ee-abb7f5ace7a0" server_name="FormTest">
       <method />
     </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="eaab2f6b-2d2d-4b26-9628-fefd4abd1120" name="Default" comment="" />
@@ -412,16 +352,16 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14034152" sideWeight="0.6707589" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16008538" sideWeight="0.6712329" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34417808" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -478,114 +418,128 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mods/hello_world/module.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="656" selection-end="656" vertical-scroll-proportion="0.3708381">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mods/hello_world/module_install.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.36804733" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mods/hello_world/index_admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="189" selection-end="189" vertical-scroll-proportion="-3.9230769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mods/_standard/tile_search/module.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="89" selection-start="766" selection-end="776" vertical-scroll-proportion="-11.115385" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mods/hello_world/ModuleCallbacks.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mods/hello_world/sublinks.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/vitals.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.4098557">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mods/hello_world/PFBC/Form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="31" selection-start="993" selection-end="1004" vertical-scroll-proportion="0.020118343">
-          <folding>
-            <marker date="1376990464787" expanded="true" signature="9515:9595" placeholder="{...}" />
-            <marker date="1376990464787" expanded="true" signature="10273:10526" placeholder="{&quot;url&quot;: &quot;{$this-&gt;_attributes[&quot;action&quot;]}&quot;...}" />
-            <marker date="1376990464787" expanded="true" signature="10440:10526" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mods/hello_world/PFBC/OptionElement.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="70" selection-start="159" selection-end="169" vertical-scroll-proportion="0.12071006">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mods/hello_world/module.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="46" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mods/hello_world/module_uninstall.php">
+    <entry file="file://$PROJECT_DIR$/mods/hello_world/PFBC/Element/Radio.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/admin/config_edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="868" selection-end="973" vertical-scroll-proportion="-11.115385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mods/hello_world/modify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="40" selection-start="139" selection-end="175" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mods/hello_world/element.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="34" selection-start="1901" selection-end="1901" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mods/hello_world/not required temp/module.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="0" selection-start="3124" selection-end="3385" vertical-scroll-proportion="0.7846154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mods/hello_world/preview.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="6" selection-start="1415" selection-end="1421" vertical-scroll-proportion="19.0">
+          <folding>
+            <marker date="1379510487328" expanded="true" signature="559:571" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mods/hello_world/create_user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="1506" selection-end="1506" vertical-scroll-proportion="235.5">
+          <folding>
+            <element signature="e#1506#1548#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mods/hello_world/module.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="84" selection-start="2467" selection-end="2467" vertical-scroll-proportion="-0.65384614">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/registration.tmpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="2" selection-start="143" selection-end="143" vertical-scroll-proportion="-3.9230769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/registration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1555" selection-end="1555" vertical-scroll-proportion="35.0">
+        <state line="73" column="59" selection-start="3618" selection-end="3618" vertical-scroll-proportion="-18.115385">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/users/profile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="17" selection-start="4562" selection-end="4562" vertical-scroll-proportion="-18.26923">
+        <state line="57" column="19" selection-start="1903" selection-end="1906" vertical-scroll-proportion="-5.27451">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mods/hello_world/index_admin_test.php">
+    <entry file="file://$PROJECT_DIR$/mods/hello_world/user_profile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="1686" selection-end="1686" vertical-scroll-proportion="0.38224852">
+        <state line="188" column="11" selection-start="9222" selection-end="9225" vertical-scroll-proportion="-28.27451">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mods/hello_world/signup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="27" selection-start="1806" selection-end="1806" vertical-scroll-proportion="-15.941176">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mods/hello_world/save.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="2" selection-start="481" selection-end="481" vertical-scroll-proportion="-13.076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/default/users/profile.tmpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="59" selection-start="92" selection-end="112" vertical-scroll-proportion="-0.4473684">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mods/hello_world/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="0" selection-start="1722" selection-end="1850" vertical-scroll-proportion="-24.807692">
+          <folding>
+            <marker date="1379678855080" expanded="false" signature="1782:1792" placeholder="..." />
+            <marker date="1379678855080" expanded="true" signature="1896:2082" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mods/hello_world/index_form_utility.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="252" column="105" selection-start="10241" selection-end="10241" vertical-scroll-proportion="-9.490196">
+          <folding>
+            <marker date="1379679172496" expanded="true" signature="2566:2667" placeholder="..." />
+            <marker date="1379679172496" expanded="true" signature="5825:5835" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mods/hello_world/modify_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="9" selection-start="1648" selection-end="1648" vertical-scroll-proportion="-0.74845105">
           <folding />
         </state>
       </provider>

@@ -9,3 +9,24 @@ div#helloworld {
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
+
+div.row
+{
+    padding: 8px;
+}
+
+input[disabled], select[disabled], textarea[disabled], input[readonly], select[readonly], textarea[readonly] {
+    cursor: not-allowed;
+    background-color: #eeeeee;
+}
+
+input.chk
+{
+    position:absolute;
+    left:200px;
+}
+
+table.data td.nonedit
+{
+    background-color: #eeeeee;
+}

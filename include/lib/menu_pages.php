@@ -29,7 +29,9 @@ if(isset($_SESSION['valid_user'])){
     $browse_tab = "browse.php";
 }
 }
-if($_config['allow_registration']) {
+
+
+if($_config['allow_registration'] ) {
     $reg_tab = "registration.php";
 }
 

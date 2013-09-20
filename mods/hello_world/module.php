@@ -15,70 +15,39 @@ if (!isset($this) || (isset($this) && (strtolower(get_class($this)) != 'module')
 define('AT_PRIV_FORM_UTIL',       $this->getPrivilege());
 define('AT_ADMIN_PRIV_FORM_UTIL', $this->getAdminPrivilege());
 
-/*******
- * create a side menu box/stack.
- */
-$this->_stacks['form_util'] = array('title_var'=>'form_util', 'file'=>AT_INCLUDE_PATH.'../mods/hello_world/side_menu.inc.php');
-// ** possible alternative: **
-// $this->addStack('hello_world', array('title_var' => 'hello_world', 'file' => './side_menu.inc.php');
 
 /*******
- * create optional sublinks for module "detail view" on course home page
- * when this line is uncommented, "mods/hello_world/sublinks.php" need to be created to return an array of content to be displayed
+ * add the admin pages.
  */
-//$this->_list['hello_world'] = array('title_var'=>'hello_world','file'=>'mods/hello_world/sublinks.php');
-
-// Uncomment for tiny list bullet icon for module sublinks "icon view" on course home page
-//$this->_pages['mods/hello_world/index.php']['icon']      = 'mods/hello_world/hello_world_sm.jpg';
-
-// Uncomment for big icon for module sublinks "detail view" on course home page
-//$this->_pages['mods/hello_world/index.php']['img']      = 'mods/hello_world/hello_world.jpg';
-
-// ** possible alternative: **
-// the text to display on module "detail view" when sublinks are not available
-$this->_pages['mods/hello_world/index.php']['text']      ="this is form util"; //#########################################_AT('hello_world_text')
-
-
-/*******
- * add the admin pages when needed.
- */
-/*if (admin_authenticate(AT_ADMIN_PRIV_HELLO_WORLD, TRUE) || admin_authenticate(AT_ADMIN_PRIV_ADMIN, TRUE)) {
-	$this->_pages[AT_NAV_ADMIN] = array('mods/hello_world/index_admin.php');
-	$this->_pages['mods/hello_world/index_admin.php']['title_var'] = 'hello_world';
-	$this->_pages['mods/hello_world/index_admin.php']['parent']    = AT_NAV_ADMIN;
-}*/
-
 if (admin_authenticate(AT_ADMIN_PRIV_FORM_UTIL, TRUE) || admin_authenticate(AT_ADMIN_PRIV_ADMIN, TRUE)) {
-    $this->_pages['admin/config_edit.php']['children'] = array('mods/hello_world/index_admin_test.php');
+    $this->_pages['admin/config_edit.php']['children'] = array('mods/hello_world/index_form_utility.php');
+    $this->_pages['mods/hello_world/index_form_utility.php']['title_var'] = 'form_util';
+    $this->_pages['mods/hello_world/index_form_utility.php']['parent']    ='admin/config_edit.php';
+    $this->_pages['mods/hello_world/index_form_utility.php']['children']  = array('mods/hello_world/modify_form.php','mods/hello_world/create_user.php','mods/hello_world/config.php');
 
-    $this->_pages['mods/hello_world/index_admin_test.php']['title_var'] = 'form_util';
-    $this->_pages['mods/hello_world/index_admin_test.php']['parent']    = 'admin/config_edit.php';
+
+    $this->_pages['mods/hello_world/modify_form.php']['title_var'] = 'preview';
+    $this->_pages['mods/hello_world/modify_form.php']['parent']    = 'mods/hello_world/index_form_utility.php';
+
+    $this->_pages['mods/hello_world/create_user.php']['title_var'] = 'create_user';
+    $this->_pages['mods/hello_world/create_user.php']['parent']    = 'mods/hello_world/index_form_utility.php';
+
+    $this->_pages['mods/hello_world/config.php']['title_var'] = 'config_tool';
+    $this->_pages['mods/hello_world/config.php']['parent']    = 'mods/hello_world/index_form_utility.php';
 }
 
-/*******
- * instructor Manage section:
- */
-$this->_pages['mods/hello_world/index_instructor.php']['title_var'] = 'hello_world';
-$this->_pages['mods/hello_world/index_instructor.php']['parent']   = 'tools/index.php';
-// ** possible alternative: **
-// $this->pages['./index_instructor.php']['title_var'] = 'hello_world';
-// $this->pages['./index_instructor.php']['parent']    = 'tools/index.php';
-
-/*******
- * student page.
- */
-$this->_pages['mods/hello_world/index.php']['title_var'] = 'hello_world';
-$this->_pages['mods/hello_world/index.php']['img']       = 'mods/hello_world/hello_world.jpg';
 
 /* public pages */
-$this->_pages[AT_NAV_PUBLIC] = array('mods/hello_world/index_public.php');
-$this->_pages['mods/hello_world/index_public.php']['title_var'] = 'hello_world';
-$this->_pages['mods/hello_world/index_public.php']['parent'] = AT_NAV_PUBLIC;
+$this->_pages[AT_NAV_PUBLIC] = array('mods/hello_world/signup.php');
+$this->_pages['mods/hello_world/signup.php']['title_var'] = 'register';
+$this->_pages['mods/hello_world/signup.php']['parent'] = AT_NAV_PUBLIC;
 
 /* my start page pages */
-$this->_pages[AT_NAV_START]  = array('mods/hello_world/index_mystart.php');
-$this->_pages['mods/hello_world/index_mystart.php']['title_var'] = 'hello_world';
-$this->_pages['mods/hello_world/index_mystart.php']['parent'] = AT_NAV_START;
+$this->_pages['users/profile.php']['children']  = array('mods/hello_world/user_profile.php');
+$this->_pages['mods/hello_world/user_profile.php']['title_var'] = 'profile';
+$this->_pages['mods/hello_world/user_profile.php']['parent'] = 'users/profile.php';
+
+
 
 /*******
  * Use the following array to define a tool to be added to the Content Editor's icon toolbar. 
@@ -91,14 +60,14 @@ $this->_pages['mods/hello_world/index_mystart.php']['parent'] = AT_NAV_START;
  * js = reference to the script that provides the tool's functionality
  */
 
-$this->_content_tools[] = array("id"=>"helloworld_tool",
-                                "class"=>"fl-col clickable", 
-                                "src"=>AT_BASE_HREF."mods/hello_world/hello_world.jpg",
-                                "title"=>'title',
-                                "alt"=>'alt',
-                                "text"=>'text',
-                                "js"=>AT_BASE_HREF."mods/hello_world/content_tool_action.js");
-
+//$this->_content_tools[] = array("id"=>"form_utility_tool",
+//                                "class"=>"fl-col clickable",
+//                                "src"=>AT_BASE_HREF."mods/hello_world/hello_world.jpg",
+//                                "title"=>'title',
+//                                "alt"=>'alt',
+//                                "text"=>'text',
+//                                "js"=>AT_BASE_HREF."mods/hello_world/content_tool_action.js");
+//
 
 /*$this->_content_tools[] = array("id"=>"helloworld_tool",
     "class"=>"fl-col clickable",
@@ -113,9 +82,9 @@ $this->_content_tools[] = array("id"=>"helloworld_tool",
  * This class must be defined in "ModuleCallbacks.class.php".
  * This class is an API that contains the static methods to act on core functions.
  */
-$this->_callbacks['hello_world'] = 'HelloWorldCallbacks';
+//$this->_callbacks['hello_world'] = 'HelloWorldCallbacks';
 
-function hello_world_get_group_url($group_id) {
+/*function hello_world_get_group_url($group_id) {
 	return 'mods/hello_world/index.php';
-}
+}*/
 ?>
